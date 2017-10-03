@@ -1,0 +1,62 @@
+﻿@model TrialWebsite.Models.ContactForm
+
+@{
+    ViewBag.Title = "Contact";
+}
+
+<link href="Site.css" rel="stylesheet">
+
+
+<div class="container">
+    <div class="row">
+        @*<img src="~/Images/IMG_7008.jpg" alt="Image" align="left" />*@
+        <div class="col-md-offset-6">
+            <h4>@ViewBag.Message</h4>
+            <p>
+                If you have any queries or need any information, please
+                take a moment to send us your comments by filling the form below.
+            </p>
+            
+                @using (Html.BeginForm())
+                {                    
+                        <div class="form-group">
+                            @Html.LabelFor(x => x.Name, new { @class = "col-md-3 control-label" })
+                            <div class="col-md-7">
+                                @Html.TextBoxFor(x => x.Name, new { @class = "form-control", placeholder = "Name *" })
+                                <br>
+                                @Html.ValidationMessageFor(x => x.Name, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            @Html.LabelFor(x => x.Email, new { @class = "col-md-3 control-label" })
+                            <div class="col-md-7">
+                                @Html.TextBoxFor(x => x.Email, new { @class = "form-control", placeholder = "Email *" })
+                                <br>
+                                @Html.ValidationMessageFor(x => x.Email, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            @Html.LabelFor(x => x.PhoneNumber, new { @class = "col-md-3 control-label" })
+                            <div class="col-md-7">
+                                @Html.TextBoxFor(x => x.PhoneNumber, new { @class = "form-control", placeholder = "PhoneNumber *" })
+                                <br>
+                                @Html.ValidationMessageFor(x => x.PhoneNumber, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+                       <div class="form-group">
+                           @Html.LabelFor(x=>x.Message, new {@class="col-md-3 control-label" })
+                           <div class="col-md-6">
+                               @Html.TextAreaFor(x=>x.Message,new { @class="form-control ",placeholder="Type your Message here *", style= "margin: 0px - 25px 0px 0px; height: 86px; width: 283px; "})
+                               <br >
+                               @Html.ValidationMessageFor(x => x.Message, "", new { @class="text-danger "})
+                           </div>
+                       </div>
+                    <div class="form-group">
+                        <div class="col-md-offset-2 col-md-10">
+                            <input type="submit" class="btn btn-default" value="Send" />
+                        </div>
+                    </div>
+                }
+        </div>
+    </div>
+</div>

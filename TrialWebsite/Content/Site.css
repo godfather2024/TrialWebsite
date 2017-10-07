@@ -15,10 +15,27 @@ select,
 textarea {
     max-width: 280px;
 }
-
 .btn-default {
     color: #cccccc;
-    background-color:#808080;
-    border-color: #ffd800;
+    background-color: #008080;
+    border-color: #008080;
 }
-
+.btn-primary {
+    color: #fff;
+    background-color: #008080;
+    border-color: #008080;
+}
+a {
+    color: #23527c;
+    text-decoration: none;
+}
+btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open .dropdown-toggle.btn-primary {
+    color: #fff;
+    background-color: #008080;
+    border-color: #285e8e;
+}
+a:hover,
+a:focus {
+        color: #000000;
+        text-decoration: underline;
+}

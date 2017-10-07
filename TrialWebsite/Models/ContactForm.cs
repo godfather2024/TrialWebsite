@@ -15,6 +15,6 @@ namespace TrialWebsite.Models
         [Required]
         public string Message { get; set; }
         [Required]
-        public int PhoneNumber { get; set; }
+        public string PhoneNumber { get; set; }
     }
 }

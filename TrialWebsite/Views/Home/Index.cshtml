@@ -6,12 +6,15 @@
     }
 
     <title>RDS Studio</title>
+    <!--Bootstrap-->
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
     <!-- Custom fonts for this template -->
+    <link href="~/Content/font-awesome.min.css" rel="stylesheet" type="text/css" />
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
-    <link href="~/Content/bootstrap.min.css" rel="stylesheet"/>
+    
     <!-- Custom styles for t%his template -->
     <link href="~/Content/Site.css" rel="stylesheet" />
 
@@ -22,18 +25,51 @@
     <div class="container">
         <!-- Header -->
         <header>
-            <div class="jumbotron">
-                <div class="intro-text">
-                    <div class="intro-lead-in">Welcome To Our Studio!</div>
-                    <div class="intro-heading">It's Nice To Meet You</div>
-                    <a href="#services" class="page-scroll btn btn-xl">Tell Me More</a>
+            <div class="jumbotron" style="background-image:url(../../Images/Webp.net-resizeimage.jpg); text-align:center">                
+                    @*<img src="~/Images/Webp.net-resizeimage.jpg" style="width:100%"/>*@
+                    <h1 class="display-3" >Welcome To Our Studio!</h1>
+                    <p class="lead">It's Nice To Meet You</p>
+                    <a href="#services" class="page-scroll btn btn-primary btn-xl">Tell Me More</a>
+                </div>
+        </header>
+    </div>
+    
+    <!--Services Section-->
+    <section id="services">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h2 class="section-heading">Services</h2>
+                    <h3 class="section-subheading text-muted">What we have to offer to you!!!</h3>
                 </div>
             </div>
-        </header>
-
-
-    </div>
-
-
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-building fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="service-heading">Consultation</h4>
+                    <p class="text-muted">We help you find the right cost and solutions for renovating or designing it from scratch. Be it any space(Office, lounges or home).</p>
+                </div>
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-laptop fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="service-heading">Interior Designs</h4>
+                    <p class="text-muted">A one stop shop for complete Interior Designing solutions. We have an experienced team for taking care of you!</p>
+                </div>
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-support fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="service-heading">Designing</h4>
+                    <p class="text-muted">We provide design drafts for customers who just want to levrage our designing skills.</p>
+                </div>
+            </div>
+            </div>
+    </section>
 
 </body>

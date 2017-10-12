@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1 , user-scalable=false;">
     <title>RDS Studio - Home Page</title>
 
     @*Bootstrap Core Css*@
@@ -20,32 +20,16 @@
     <link href="~/Content/Site.css" rel="stylesheet">
 </head>
 <body>
-    @*<div class="navbar navbar-inverse navbar-fixed-top">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="icon-bar">Services</span>
-                    <span class="icon-bar">Portfolio</span>
-                    <span class="icon-bar">About</span>
-                </button>
-                @Html.ActionLink("Application name", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
-            </div>
-            <div class="navbar-collapse collapse">
-                <ul class="nav navbar-nav">
-                </ul>
-            </div>
-        </div>
-    </div>*@
     <!--Navigation-->
     <nav class="navbar navbar-default navbar-custom navbar-fixed-top" id="mainNav">
         <div class="container">
             <div class="navbar-header page-scroll">                
-                <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbarcollapse" style="padding:5px">
+                <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbarcollapse" style="padding:5px" aria-hidden="true">
                     <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>                   
                 </button>
                 <a class="navbar-brand page-scroll" href="#page-top">RDS Studio</a>
                 </div>
-            <div class="navbar-collapse collapse" id="navbarcollapse">
+            <div class="navbar-collapse collapsing" id="navbarcollapse">
                     <ul class="nav navbar-nav navbar-right">
                         <li class="hidden">
                             <a href="#pagetop"></a>
@@ -104,7 +88,5 @@
         </footer>
     </div>
 
-    <script src="~/Scripts/jquery-1.10.2.min.js"></script>
-    <script src="~/Scripts/bootstrap.min.js"></script>
 </body>
 </html>

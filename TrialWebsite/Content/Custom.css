@@ -118,8 +118,8 @@ h6 {
 
 .btn-xl {
     color: white;
-    background-color: #fed136;
-    border-color: #fed136;
+    background-color: #1AD0AA;
+    border-color: #1AD0AA;
     font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
     font-weight: 700;
@@ -169,12 +169,12 @@ h6 {
     }
 
 .navbar-custom {
-    background-color: #222222;
+    background-color: #1AD0AA;
     border-color: transparent;
 }
 
     .navbar-custom .navbar-brand {
-        color: #fed136;
+        color: whitesmoke;
         font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
     }
 
@@ -182,7 +182,7 @@ h6 {
         .navbar-custom .navbar-brand:focus,
         .navbar-custom .navbar-brand:active,
         .navbar-custom .navbar-brand.active {
-            color: #fec503;
+            color: whitesmoke;
         }
 
     .navbar-custom .navbar-collapse {
@@ -190,8 +190,8 @@ h6 {
     }
 
     .navbar-custom .navbar-toggle {
-        background-color: #fed136;
-        border-color: #fed136;
+        background-color: #1AD0AA;
+        border-color: #1AD0AA;
         font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
         text-transform: uppercase;
         color: white;
@@ -200,7 +200,7 @@ h6 {
 
         .navbar-custom .navbar-toggle:hover,
         .navbar-custom .navbar-toggle:focus {
-            background-color: #fed136;
+            background-color: #1AD0AA;
         }
 
     .navbar-custom .nav li a {
@@ -231,8 +231,8 @@ h6 {
 
 @media (min-width: 768px) {
     .navbar-custom {
-        background-color: transparent;
-        padding: 25px 0;
+        background-color: #1AD0AA;
+        padding: 10px 0;
         -webkit-transition: padding 0.3s;
         -moz-transition: padding 0.3s;
         transition: padding 0.3s;
@@ -341,7 +341,7 @@ section {
     }
 
 @media (min-width: 768px) {
-    section {
+    .section {
         padding: 150px 0;
     }
 }
@@ -653,7 +653,7 @@ aside.clients img {
 }
 
 section#contact {
-    background-color: #222222;
+    background-color: whitesmoke;
     background-image: url('../img/map-image.png');
     background-position: center;
     background-repeat: no-repeat;
@@ -745,7 +745,7 @@ ul.social-buttons {
 
     ul.social-buttons li a {
         display: block;
-        background-color: #222222;
+        background-color: #1AD0AA;
         height: 40px;
         width: 40px;
         border-radius: 100%;

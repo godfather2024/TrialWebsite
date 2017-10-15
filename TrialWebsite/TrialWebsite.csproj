@@ -101,6 +101,9 @@
     <Content Include="fonts\fontawesome-webfont.svg" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
+    <Content Include="Images\2017-10-13_2019_1.png" />
+    <Content Include="Images\2017-10-14_1502_1.png" />
+    <Content Include="Images\2017-10-14_1504_1.png" />
     <Content Include="Images\IMG_7007.JPG" />
     <Content Include="Images\IMG_7008.JPG" />
     <Content Include="Images\Screenshot_2015-08-16-20-51-23.png" />

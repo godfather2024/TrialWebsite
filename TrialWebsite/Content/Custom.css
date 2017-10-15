@@ -3,7 +3,6 @@
  * Copyright 2013-2016 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
-/*
 body {
     overflow-x: hidden;
     font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -172,7 +171,6 @@ h6 {
 .navbar-custom {
     background-color: #222222;
     border-color: transparent;
-
 }
 
     .navbar-custom .navbar-brand {
@@ -233,8 +231,8 @@ h6 {
 
 @media (min-width: 768px) {
     .navbar-custom {
-        background-color: #1AD0AA;
-        padding: 5px 0;
+        background-color: transparent;
+        padding: 25px 0;
         -webkit-transition: padding 0.3s;
         -moz-transition: padding 0.3s;
         transition: padding 0.3s;
@@ -879,4 +877,4 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: #fed136;
-}*/
+}

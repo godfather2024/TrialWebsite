@@ -60,7 +60,8 @@ namespace TrialWebsite.Controllers
 
         [ActionName("Sent")]
         public ActionResult Sent()
-        { return View();
+        {
+            return View();
         }
     }
 

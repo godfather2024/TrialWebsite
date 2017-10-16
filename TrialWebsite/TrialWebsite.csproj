@@ -107,6 +107,15 @@
     <Content Include="Images\2017-10-14_1504_1.png" />
     <Content Include="Images\IMG_7007.JPG" />
     <Content Include="Images\IMG_7008.JPG" />
+    <Content Include="Images\Proj1\IMG_7442.PNG" />
+    <Content Include="Images\Proj1\IMG_7443.PNG" />
+    <Content Include="Images\Proj1\IMG_7449.PNG" />
+    <Content Include="Images\Proj2\IMG_7422.PNG" />
+    <Content Include="Images\Proj2\IMG_7423.PNG" />
+    <Content Include="Images\Proj2\IMG_7424.PNG" />
+    <Content Include="Images\Proj3\IMG_1466.JPG" />
+    <Content Include="Images\Proj3\IMG_1483.JPG" />
+    <Content Include="Images\Proj3\IMG_1485.JPG" />
     <Content Include="Images\Screenshot_2015-08-16-20-51-23.png" />
     <Content Include="Images\Webp.net-resizeimage.jpg" />
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
@@ -155,7 +164,7 @@
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
-    <Content Include="Views\Sent.cshtml" />
+    <Content Include="Views\Home\Sent.cshtml" />
     <Content Include="Scripts\jquery-3.2.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.2.1.min.map" />
     <None Include="Web.Debug.config">

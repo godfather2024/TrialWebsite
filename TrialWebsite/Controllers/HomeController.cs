@@ -1,12 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
+﻿using System.Net.Mail;
+using System.Threading.Tasks;
 using System.Web.Mvc;
 using TrialWebsite.Models;
-using System.Net;
-using System.Net.Mail;
-using System.Threading.Tasks;
 
 namespace TrialWebsite.Controllers
 {
@@ -33,7 +28,7 @@ namespace TrialWebsite.Controllers
             }
             ViewBag.Message = "Get in Touch with us";
             return View(cf);
-            
+
         }
 
 
@@ -49,7 +44,7 @@ namespace TrialWebsite.Controllers
                 message.IsBodyHtml = true;
                 using (var smtp = new SmtpClient())
                 {
-                   await smtp.SendMailAsync(message);
+                    await smtp.SendMailAsync(message);
                     return RedirectToAction("Index");
                 }
 

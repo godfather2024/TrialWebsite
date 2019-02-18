@@ -105,6 +105,7 @@
     <Content Include="Images\2017-10-13_2019_1.png" />
     <Content Include="Images\2017-10-14_1502_1.png" />
     <Content Include="Images\2017-10-14_1504_1.png" />
+    <Content Include="Images\Hi.txt" />
     <Content Include="Images\IMG_7007.JPG" />
     <Content Include="Images\IMG_7008.JPG" />
     <Content Include="Images\Proj1\IMG_7442.PNG" />
@@ -117,7 +118,7 @@
     <Content Include="Images\Proj3\IMG_1483.JPG" />
     <Content Include="Images\Proj3\IMG_1485.JPG" />
     <Content Include="Images\Screenshot_2015-08-16-20-51-23.png" />
-    <Content Include="Images\Webp.net-resizeimage.jpg" />
+    <Content Include="Images\1.jpg" />
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
@@ -132,6 +133,7 @@
     <Content Include="fonts\fontawesome-webfont.ttf" />
     <Content Include="fonts\fontawesome-webfont.eot" />
     <None Include="Scripts\jquery-3.2.1.intellisense.js" />
+    <Content Include="Images\Test.html" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-3.2.1.js" />
@@ -144,6 +146,7 @@
     <Content Include="Scripts\jquery.validate.unobtrusive.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
     <Content Include="Scripts\modernizr-2.8.3.js" />
+    <Content Include="Views\Home\Project.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -176,6 +179,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Views\Projects\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
@@ -188,7 +192,7 @@
     <VisualStudio>
       <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
         <WebProjectProperties>
-          <UseIIS>True</UseIIS>
+          <UseIIS>False</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>51389</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
